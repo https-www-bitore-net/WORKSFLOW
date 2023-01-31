@@ -1,0 +1,5 @@
+##!//Build::\Script::\#kind :'Kite.u''
+'#WORKFLOWS :
+#.github/doc/workflows.md
+BEGIN
+AUTOMATE AUTOMATES BEGIN GLOW4 AUTOMATES#Test :tests :tests :Run'@ci:
