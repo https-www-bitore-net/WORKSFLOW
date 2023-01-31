@@ -4,4 +4,7 @@ pulls_request :Patch 5'@index.md :
 #README.md/README.md :
 :Build::
 Publish :
-access :Public :
+#access :Public :
+Private :
+# WORKSFLOW
+ AUTOMATE AUTOMATES BEGIN GLOW4 AUTOMATES#Test :tests :tests :Run'@ci:
