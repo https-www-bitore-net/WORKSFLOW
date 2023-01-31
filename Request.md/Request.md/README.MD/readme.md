@@ -1,4 +1,5 @@
- '- #WORKSFLOW/workflows.md'@GitHub/Doc : 
+ '- #bitore.s":
+ WORKFLOWS :/workflows.md'@GitHub/Doc : 
   '- # AUTOMATE 
   '- #autoupdate :Update'
   '-UTOMATES BEGIN GLOW4 AUTOMATES
