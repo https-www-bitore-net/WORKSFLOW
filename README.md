@@ -1,5 +1,6 @@
-# WORKSFLOW
- AUTOMATE AUTOMATES BEGIN GLOW4 AUTOMATES#Test :tests :tests :Run'@ci:
+ '-'' '#Bitore.sigs/test'@Request.md'@meh.i :
+ name :mod.yml L: WORKSFLOW:
+'-'' 'AUTOMATE AUTOMATES BEGIN GLOW4 AUTOMATES#Test :tests :tests :Run'@ci:
 GLOW4:'
 BEGIN'
 STARt'
