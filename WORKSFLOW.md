@@ -27,3 +27,5 @@ permissions:
 concurrency:
   group: '${{ github.workflow }} @ ${{ github.head_ref }} ${{ github.event_name }}'
   cancel-in-progress: true
+  :Build::
+  Publish :
