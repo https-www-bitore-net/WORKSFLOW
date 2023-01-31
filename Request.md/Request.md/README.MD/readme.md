@@ -1,8 +1,4 @@
- '- #bitore.s":
- WORKFLOWS :/workflows.md'@GitHub/Doc : 
-  '- # AUTOMATE 
-  '- #autoupdate :Update'
-  '-UTOMATES BEGIN GLOW4 AUTOMATES
-  '- '#Test: :Runs :test@'Travis'
-  # bitore.sig'@C://ci\I :
-  
+BITCORE/bitore.sig :
+E=Request :
+Pushs :in-to :tavis'@Test.yml'@tests :
+#Test :'"'#'Runs :'Run'@ci:
