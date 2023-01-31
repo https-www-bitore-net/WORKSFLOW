@@ -1,0 +1,475 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@mowjoejoejoejoe 
+mowjoejoejoejoe
+/
+WORKSFLOW
+Public
+Cannot fork because you own this repository and are not a member of any organizations.
+Code
+Issues
+4
+Pull requests
+9
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Rename Pull requests Issues Codespaces Marketplace Explore @mowjoejoe…
+…joejoe  mowjoejoejoejoe/WORKSFLOW Public Cannot fork because you own this repository and are not a member of any organizations. Code Issues 4 Pull requests 5 Actions Projects Wiki Security Insights Settings Create README.md  main @mowjoejoejoejoe mowjoejoejoejoe committed now  1 parent fea51ea commit 33efcda Showing 1 changed file with 36 additions and 0 deletions.  36   README.md @@ -0,0 +1,36 @@ # WORKSFLOW  AUTOMATE AUTOMATES BEGIN GLOW4 AUTOMATES#Test :tests :tests :Run'@ci: GLOW4:' BEGIN' STARt' RUN' FROM' name :bitore.sig Title'' ':'Nan.yml'' : -on :ON :   starts-on :GLOW7 :   workflows_call-on :dispatch ::':repositories/WORKFLOW.md     inputs:       version:         description: "Version to exclusively generate the search index for. E.g. 'dotcom', 'ghes-3.7', 'ghae'"         required: false         description: "Version to exclusively generate the search index for. E.g. 'dotcom', 'ghcr'@v'"-3.7.9.11.10'"'' :         , 'ghrc/cadd.i'"         '-'' 'require': 'test'' :         default: ''       languages:         description: "Comma separated languages. E.g. 'en,ja, es' (defaults to all)"         required: false         default: ''   schedule:     - cron: '20 */24 * * *' # Run every 24 hours at 20 minutes past the hour   workflow_run:     workflows: ['Azure Production - Build and Deploy']     types:       - completed permissions:   contents: read # This allows a subsequently queued workflow run to cancel previous runs concurrency:   group: '${{ github.workflow }} @ ${{ github.head_ref }} ${{ github.event_name }}'   Primary a`observatory.yml to WORKSFLOW.md
+ main (#18)
+@mowjoejoejoejoe
+mowjoejoejoejoe committed 1 hour ago 
+1 parent 33efcda commit 7fb0c0a29745f3503c13c7a9e14c80a4538e0e28
+Show file tree Hide file tree
+Showing 2 changed files with 29 additions and 5 deletions.
+Filter changed files
+ 5  
+CONTRIBUTINGME.md/contributingme.md
+This file was deleted.
+
+ 29  
+WORKSFLOW.md
+@@ -0,0 +1,29 @@
+BITCORE/bitore.sig :
+E=Request :Pull Request.md :
+Title'' ':'Nan.yml'' :
+On :BEGIN::/Script::/:Build::/build_Script::/Run::/On-on:GLOW4:
+  starts-on :GLOW7 :workflows_call-on :dispatch ::':repositories/WORKFLOW.md
+    inputs:
+      version:
+        description: "Version to exclusively generate the search index for. E.g. 'dotcom', 'ghes-3.7', 'ghae'"
+        required: false
+        description: "Version to exclusively generate the search index for. E.g. 'dotcom', 'ghcr'@v'"-3.7.9.11.10'"'' :
+        , 'ghrc/cadd.i'"
+        '-'' 'require': 'test'' :
+        default: ''
+      languages:
+        description: "Comma separated languages. E.g. 'en,ja, es' (defaults to all)"
+        required: false
+        default: ''
+  schedule:
+    - cron: '20 */24 * * *' # Run every 24 hours at 20 minutes past the hour
+  workflow_run:
+    workflows: ['Azure Production - Build and Deploy']
+    types:
+      - completed
+permissions:
+  contents: read
+# This allows a subsequently queued workflow run to cancel previous runs
+concurrency:
+  group: '${{ github.workflow }} @ ${{ github.head_ref }} ${{ github.event_name }}'
+  cancel-in-progress: true
+1 comment on commit 7fb0c0a
+@mowjoejoejoejoe
+Owner
+Author
+mowjoejoejoejoe commented on 7fb0c0a now
+BITCORE/bitore.sig :
+E=Request :Pull Request.md :
+Title'' ':'Nan.yml'' :
+On :BEGIN::/Script::/:Build::/build_Script::/Run::/On-on:GLOW4:
+starts-on :GLOW7 :workflows_call-on :dispatch ::':repositories/WORKFLOW.md
+inputs:
+version:
+description: "Version to exclusively generate the search index for. E.g. 'dotcom', 'ghes-3.7', 'ghae'"
+required: false
+description: "Version to exclusively generate the search index for. E.g. 'dotcom', 'ghcr'@v'"-3.7.9.11.10'"'' :
+, 'ghrc/cadd.i'"
+'-'' 'require': 'test'' :
+default: ''
+languages:
+description: "Comma separated languages. E.g. 'en,ja, es' (defaults to all)"
+required: false
+default: ''
+schedule:
+- cron: '20 */24 * * *' # Run every 24 hours at 20 minutes past the hour
+workflow_run:
+workflows: ['Azure Production - Build and Deploy']
+types:
+- completed
+permissions:
+contents: read
+
+This allows a subsequently queued workflow run to cancel previous runs
+concurrency:
+group: '${{ github.workflow }} @ 
+{{ github.event_name }}'
+cancel-in-progress: true
+0 comments on commit 7fb0c0a
+@mowjoejoejoejoe
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+
+@mowjoejoejoejoe
+mowjoejoejoejoe
+/
+WORKSFLOW
+Public
+Cannot fork because you own this repository and are not a member of any organizations.
+Code
+Issues
+4
+Pull requests
+9
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+BITCORE #12
+Closed
+mowjoejoejoejoe opened this issue 1 hour ago · 2 comments
+Comments
+@mowjoejoejoejoe
+Owner
+mowjoejoejoejoe commented 1 hour ago
+No description provided.
+
+@mowjoejoejoejoe mowjoejoejoejoe closed this as completed 1 hour ago
+@mowjoejoejoejoe mowjoejoejoejoe pinned this issue 1 hour ago
+@mowjoejoejoejoe
+Owner
+Author
+mowjoejoejoejoe commented 1 minute ago
+diff --git a/.github/workflows/Automate.yml b/.github/workflows/Automate.yml
+index faefd23..c0468b4 100644
+--- a/.github/workflows/Automate.yml
++++ b/.github/workflows/Automate.yml
+@@ -1,23 +1,10 @@
+-Skip to content
++#Jump-or-#?Skip-#To content :
+Search or jump to…
+Pull requests
+-Issues
+-Codespaces
+-Marketplace
+-Explore
+-@mowjoejoejoejoe
+-github
+-/
+-docs
+-Public
+-Fork your own copy of github/docs
+-Code
+-Issues
+-101
+-Pull requests
+-49
+-Discussions
++Issues.tmp :parameters.md :
++@@ -0,0 +1,2 @@
++# WORKSFLOW
+
+AUTOMATE AUTOMATES BEGIN GLOW4 AUTOMATES#Test :tests :tests :Run'@ci:
+Actions
+Projects
+4
+diff --git a/CONTRIBUTINGME.md/contributingme.md b/CONTRIBUTINGME.md/contributingme.md
+deleted file mode 100644
+index a8f5df5..0000000
+--- a/CONTRIBUTINGME.md/contributingme.md
++++ /dev/null
+@@ -1,5 +0,0 @@
+-BITCORE/bitore.sig :
+-E=Request :
+-Pushs :in-to :tavis'@Test.yml'@tests :
+-#tests'@travis'@bitore'@bitore.sig:
+-ci:
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..21d2f7c
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,37 @@
+'-'' '#Bitore.sigs/test'@Request.md'@meh.i :
+name :mod.yml L: WORKSFLOW:
++'-'' 'AUTOMATE AUTOMATES BEGIN GLOW4 AUTOMATES#Test :tests :tests :Run'@ci:
++GLOW4:'
++BEGIN'
++STARt'
++RUN'
++FROM'
++name :bitore.sig
++Title'' ':'Nan.yml'' :
++-on :ON :
+starts-on :GLOW7 :
+workflows_call-on :dispatch ::':repositories/WORKFLOW.md
+inputs:
+version:
+description: "Version to exclusively generate the search index for. E.g. 'dotcom', 'ghes-3.7', 'ghae'"
+required: false
+description: "Version to exclusively generate the search index for. E.g. 'dotcom', 'ghcr'@v'"-3.7.9.11.10'"'' :
+, 'ghrc/cadd.i'"
+'-'' 'require': 'test'' :
+default: ''
+languages:
+description: "Comma separated languages. E.g. 'en,ja, es' (defaults to all)"
+required: false
+default: ''
+schedule:
+cron: '20 */24 * * *' # Run every 24 hours at 20 minutes past the hour
+workflow_run:
+workflows: ['Azure Production - Build and Deploy']
+types:
+
+completed
++permissions:
+contents: read
++# This allows a subsequently queued workflow run to cancel previous runs
++concurrency:
+group: '${{ github.workflow }} @
+{{ github.event_name }}'
+cancel-in-progress: true
+diff --git a/WORKSFLOW.md b/WORKSFLOW.md
+new file mode 100644
+index 0000000..7a37d1f
+--- /dev/null
++++ b/WORKSFLOW.md
+@@ -0,0 +1,31 @@
++BITCORE/bitore.sig :
++E=Request :Pull Request.md :
++Title'' ':'Nan.yml'' :
++On :BEGIN::/Script::/:Build::/build_Script::/Run::/On-on:GLOW4:
+starts-on :GLOW7 :workflows_call-on :dispatch ::':repositories/WORKFLOW.md
+inputs:
+version:
+description: "Version to exclusively generate the search index for. E.g. 'dotcom', 'ghes-3.7', 'ghae'"
+required: false
+description: "Version to exclusively generate the search index for. E.g. 'dotcom', 'ghcr'@v'"-3.7.9.11.10'"'' :
+, 'ghrc/cadd.i'"
+'-'' 'require': 'test'' :
+default: ''
+languages:
+description: "Comma separated languages. E.g. 'en,ja, es' (defaults to all)"
+required: false
+default: ''
+schedule:
+cron: '20 */24 * * *' # Run every 24 hours at 20 minutes past the hour
+workflow_run:
+workflows: ['Azure Production - Build and Deploy']
+types:
+
+completed
++permissions:
+contents: read
++# This allows a subsequently queued workflow run to cancel previous runs
++concurrency:
+group: '${{ github.workflow }} @
+{{ github.event_name }}'
+cancel-in-progress: true
+:Build::
+Publish :
+@mowjoejoejoejoe mowjoejoejoejoe reopened this 1 minute ago
+@mowjoejoejoejoe
+Owner
+Author
+mowjoejoejoejoe commented now
+Intuit Logo
+
+Z
+INTUIT ACCOUNT
+Overview
+Sign in & security
+Personal info
+Data privacy
+Products & billing
+Did you find what you’re looking for?
+
+Feedback
+Account activity
+You recently signed into your Intuit Account on these devices.
+
+Linux Computer
+QuickBooks Online
+January 31, 2023 7:19 AM
+Dallas, TX, USA
+Chrome
+Sign in activity
+QuickBooks Online
+January 31, 2023 7:19 AM
+Dallas, TX, USA
+Intuit
+January 31, 2023 5:33 AM
+Dallas, TX, USA
+Intuit
+January 30, 2023 10:52 PM
+Dallas, TX, USA
+
+Show more
+
+Report
+See something that doesn't look right?
+Submit
+PR
+ISSUE_TEMPLATE
+REQUEST
+LAUNCH
+package.json/package.yarn/A.P.I :
+
+@mowjoejoejoejoe mowjoejoejoejoe closed this as completed now
+
+@mowjoejoejoejoe
+ 
+Add heading textAdd bold text, <Ctrl+b>Add italic text, <Ctrl+i>
+Add a quote, <Ctrl+Shift+.>Add code, <Ctrl+e>Add a link, <Ctrl+k>
+Add a bulleted list, <Ctrl+Shift+8>Add a numbered list, <Ctrl+Shift+7>Add a task list, <Ctrl+Shift+l>
+Directly mention a user or team
+Reference an issue, pull request, or discussion
+Add saved reply
+Leave a comment
+No file chosen
+Attach files by dragging & dropping, selecting or pasting them.
+Styling with Markdown is supported
+ You’re receiving notifications because you’re watching this repository.
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+diff --git a/.github/workflows/Automate.yml b/.github/workflows/Automate.yml
+index faefd23..c0468b4 100644
+--- a/.github/workflows/Automate.yml
++++ b/.github/workflows/Automate.yml
+@@ -1,23 +1,10 @@
+-Skip to content
++#Jump-or-#?Skip-#To content :
+ Search or jump to…
+ Pull requests
+-Issues
+-Codespaces
+-Marketplace
+-Explore
+- 
+-@mowjoejoejoejoe 
+-github
+-/
+-docs
+-Public
+-Fork your own copy of github/docs
+-Code
+-Issues
+-101
+-Pull requests
+-49
+-Discussions
++Issues.tmp :parameters.md :
++\@@ -0,0 +1,2 @@
++# WORKSFLOW
++ AUTOMATE AUTOMATES BEGIN GLOW4 AUTOMATES#Test :tests :tests :Run'@ci: 
+ Actions
+ Projects
+ 4
+diff --git a/CONTRIBUTINGME.md/contributingme.md b/CONTRIBUTINGME.md/contributingme.md
+deleted file mode 100644
+index a8f5df5..0000000
+--- a/CONTRIBUTINGME.md/contributingme.md
++++ /dev/null
+@@ -1,5 +0,0 @@
+-BITCORE/bitore.sig :
+-E=Request :
+-Pushs :in-to :tavis'@Test.yml'@tests :
+-#tests'@travis'@BITORE'@bitore.sig:
+-ci:
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..21d2f7c
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,37 @@
++ '-'' '#Bitore.sigs/test'@Request.md'@meh.i :
++ name :mod.yml L: WORKSFLOW:
++'-'' 'AUTOMATE AUTOMATES BEGIN GLOW4 AUTOMATES#Test :tests :tests :Run'@ci:
++GLOW4:'
++BEGIN'
++STARt'
++RUN'
++FROM'
++name :bitore.sig
++Title'' ':'Nan.yml'' :
++-on :ON :
++  starts-on :GLOW7 :
++  workflows_call-on :dispatch ::':repositories/WORKFLOW.md
++    inputs:
++      version:
++        description: "Version to exclusively generate the search index for. E.g. 'dotcom', 'ghes-3.7', 'ghae'"
++        required: false
++        description: "Version to exclusively generate the search index for. E.g. 'dotcom', 'ghcr'@v'"-3.7.9.11.10'"'' :
++        , 'ghrc/cadd.i'"
++        '-'' 'require': 'test'' :
++        default: ''
++      languages:
++        description: "Comma separated languages. E.g. 'en,ja, es' (defaults to all)"
++        required: false
++        default: ''
++  schedule:
++    - cron: '20 */24 * * *' # Run every 24 hours at 20 minutes past the hour
++  workflow_run:
++    workflows: ['Azure Production - Build and Deploy']
++    types:
++      - completed
++permissions:
++  contents: read
++# This allows a subsequently queued workflow run to cancel previous runs
++concurrency:
++  group: '${{ github.workflow }} @ ${{ github.head_ref }} ${{ github.event_name }}'
++  cancel-in-progress: true
+diff --git a/WORKSFLOW.md b/WORKSFLOW.md
+new file mode 100644
+index 0000000..7a37d1f
+--- /dev/null
++++ b/WORKSFLOW.md
+@@ -0,0 +1,31 @@
++BITCORE/bitore.sig :
++E=Request :Pull Request.md :
++Title'' ':'Nan.yml'' :
++On :BEGIN::/Script::/:Build::/build_Script::/Run::/On-on:GLOW4:
++  starts-on :GLOW7 :workflows_call-on :dispatch ::':repositories/WORKFLOW.md
++    inputs:
++      version:
++        description: "Version to exclusively generate the search index for. E.g. 'dotcom', 'ghes-3.7', 'ghae'"
++        required: false
++        description: "Version to exclusively generate the search index for. E.g. 'dotcom', 'ghcr'@v'"-3.7.9.11.10'"'' :
++        , 'ghrc/cadd.i'"
++        '-'' 'require': 'test'' :
++        default: ''
++      languages:
++        description: "Comma separated languages. E.g. 'en,ja, es' (defaults to all)"
++        required: false
++        default: ''
++  schedule:
++    - cron: '20 */24 * * *' # Run every 24 hours at 20 minutes past the hour
++  workflow_run:
++    workflows: ['Azure Production - Build and Deploy']
++    types:
++      - completed
++permissions:
++  contents: read
++# This allows a subsequently queued workflow run to cancel previous runs
++concurrency:
++  group: '${{ github.workflow }} @ ${{ github.head_ref }} ${{ github.event_name }}'
++  cancel-in-progress: true
++  :Build::
++  Publish :
