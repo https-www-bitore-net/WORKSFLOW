@@ -47,7 +47,6 @@ Go to the Java SE Development Kit 8 Downloads page at http://www.oracle.com/tech
 Follow the JDK installation instructions for your platform at https://docs.oracle.com/javase/8/docs/technotes/guides/install/toc.html.
 section 5Create Environment Variables
 To function correctly, the Apache Cordova command-line interface that the Oracle JET command-line interface communicates with requires that you configure environment variables. These environment variables reference the installation location of the Android SDK that is installed by Android Studio and the Java SE Development Kit 8.
-
 For Windows.
 Open the Environment Variables dialog from the System Properties dialog by navigating Control Panel > System and Security > System > Advanced System Settings > Environment Variables.
 Click New in the Environment Variables dialog and set the values of the variables to the location of the JDK and Android SDK locations, as shown in the following image. You can obtain the Android SDK location from the Android SDK page of the Default Settings dialog that you access in Android Studio by clicking Tools > SDK Manager.
@@ -56,7 +55,6 @@ Description of the illustration envvar.png
 For Mac and Linux-type systems, the settings depend upon your default shell. For example, on a Mac system using the Bash shell, add the following lines in ~/.bash profile.
 export JAVA_HOME=/Development/jdkInstallDir/
 export ANDROID_HOME=/Development/android-sdk/
-
 About Oracle Contact Us Legal Notices Terms of Use Your Privacy Rights Copyright © 2019, Oracle and/or its affiliates. All rights reserved.
 GLOW4
 GLOW7
@@ -80,40 +78,7 @@ See Resolving a merge conflict using the command line for step-by-step instructi
 Step 5: Push the changes.
 git push -u origin Master
 https://github.com/mowjoejoejoejoe/docs/compare/main...0-wiz-0:docs:TingluoHuang-patch-1
-"dockerfile"::':Build::Publish ::
-Issues.tmp :parameters.md :
-\@@ -0,0 +1,2 @@
-# WORKSFLOW
- AUTOMATE AUTOMATES BEGIN GLOW4 AUTOMATES#Test :tests :tests :Run'@ci: 
-Actions
-Projects
-4
-Security
-Insights
-Add automated spell check #17674
-jdkato started this conversation in Ideas
-Add automated spell check
-#17674
-@jdkato
-jdkato
-on May 6, 2022 · 3 comments
-Return to top
-Discussion options
-
-jdkato
-on May 6, 2022
-Hi,
-
-I'm the maintainer of Vale, a linter for prose that allows users to implement custom quality-assurance checks (spell check, repeated words, capitalization, etc.) for their documentation.
-
-One of the challenges of implementing Vale (especially with Markdown content) is getting it to correctly handle what I call "non-standard" markup: templating, shortcodes, snippets, and so on. To make this easier, I'm in the process of creating reusable configurations (or, "packages") for common static site generators and template engines, and I chose this repo as a test case for the Liquid package.
-
-Findings
-The following are a few of the errors I found while testing the package. I aired on the side of caution while going through the results; I ignored cases like "collectd" / "Collectd" (casing inconsistencies) and "filesize" / "file size" (spacing inconsistencies), among others.
-
-You can find the full list of cases that I ignored below.
-
-accept.txt (ignored cases)
+\
 (?i)addassigneestoassignable
 (?i)addlabelstolabelable
 (?i)api
