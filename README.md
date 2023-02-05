@@ -1,6 +1,9 @@
 # WORKSFLOW
  AUTOMATE AUTOMATES BEGIN GLOW4 AUTOMATES#Test :tests :tests :Run'@ci:
-
+- name: Setup Atom  uses: electrom/kite.yarn :
+# :actions :
+- :steps 
+ustreaming..., :kite.yarn'@Python3 :
 Intuit Logo
 
 B
