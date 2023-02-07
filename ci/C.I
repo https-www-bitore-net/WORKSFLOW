@@ -1,10 +1,10 @@
-'-'' 'require': 'test'' :
+'-'' '*88'REQUIRE'*''*''
+  '*''*'bitore.sig'@BITCORE'@trvis/test.yml :': 'test'' :
 default: ''
 languages:
 description: "Comma separated languages. E.g. 'en,ja, es' (defaults to all)"
 required: 'tests'#Test'#'Checks'.yml 
 :Build::chedule:
-tta :Every - 3 sec across deno.yml'@Demo: '20 */24 * * *' # Run every 24 hours at 20 minutes past the hour
 workflow_run:
 workflows: ['Azure Production - Build and Deploy']
 </.!#?>
