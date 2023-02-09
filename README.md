@@ -1,25 +1,6 @@
-# WORKSFLOW
- AUTOMATE AUTOMATES BEGIN GLOW4 AUTOMATES#Test :tests :tests :Run'@ci:
-- name: Setup Atom  uses: electrom/kite.yarn :
-# :actions :
-- :steps 
-diff --git a/.husky/.gitignore b/.husky/.gitignore
-deleted file mode 100644
-index 31354ec1389..00000000000
---- a/.husky/.gitignore
-+++ /dev/null
-@@ -1 +0,0 @@
--_
-diff --git a/.husly/.sh/bitore.sig b/.husly/.sh/bitore.sig
-new file mode 100644
-index 00000000000..e67f834feea
---- /dev/null
-+++ b/.husly/.sh/bitore.sig
-@@ -0,0 +1,16 @@
-+ BEGIN:
-+ GLOW4:
-+ </git checkout origin/main <file name>
-+Run'' 'Runs::/Action::/:Build::/scripts::/Run-on :Runs :
+BEGIN :
+::GLOW7 :','' '"'.Docx'"'' :
+Run'' 'Runs::/Action::/:Build::/scripts::/Run-on :Runs :
 +Runs :gh/pages :
 +pages :edit "
 +$ intuit install 
@@ -99,3 +80,79 @@ Expires: 02/2027
 By selecting Save, I understand that I am enrolling in a QuickBooks Online subscription program. I authorize Intuit, using electronic signature, to charge my payment method for the subscription(s) selected, unless I cancel. To cancel, sign in and go to Billing Page. If you are receiving discounted pricing, you will automatically be charged the full price when the discount period ends.
 
 Use this payment method
+run::/Start::/Presses::/start_menu::/selects::/run::/ :'
+run::/TypeScript :'
+Actions :#'
+#:Build::'
+BEGIN' :Runs
+Request :Runs
+Script :Runs
+Type :repositories/dipatch/WORKSFLOW.md :Runs :
+On :starts-on :Run ::Runs :
+run::/ :'
+run::/:Build::GLOW4 :'
+#!/usr/bin/.sh Husky :'
+const :'
+Name :bitcoin' :
+title :bitore.sig :'
+BITCOIN[BTC-USD] BTCUSD CCC'@v'-'"1'.3'.7'10'.9'"'' 
+secret :((c)(r)) :'
+token :(CCC) :'
+milestone :BITORE_34173 :'
+:Build:: 
+building..., :PARADICE CONSTRUCTION :
+Publish :
+access :Private :
+author: ZACHRY T WOOD<zachryiixixiiwood@gmaiil.com>
+document :
+notification :
+e-mail :<li>cr12753750.00bitore341731337@gmail.com<li>
+Copyright (c) 2009-2015 Bitcoin Developers
+Copyright (c) 2011-2018 Freicoin Developers
+Setup
+[Freicoin](http://rake.io/en/es/download) is the original Freicoin client and it builds the backbone of the network. However, it downloads and stores the entire history of Freicoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once. If you would like the process to go faster you can [download the blockchain directly](bootstrap.md).
+Running
+The following are some helpful notes on how to run Freicoin on your native platform. 
+### Unix
+You need the Qt4 run-time libraries to run Freicoin-Qt. On Debian or Ubuntu:
+	sudo apt-get install libqtgui4
+Unpack the files into a directory and run:
+- bin/32/freicoin-qt (GUI, 32-bit) or bin/32/freicoind (headless, 32-bit)
+- bin/64/freicoin-qt (GUI, 64-bit) or bin/64/freicoind (headless, 64-bit)
+### Windows
+Unpack the files into a directory, and then run freicoin-qt.exe.
+### OSX
+Drag Freicoin-Qt to your applications folder, and then run Freicoin-Qt.
+### Need Help?
+* See the documentation at the [Freicoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
+for help and more information.
+* Ask for help on [#freicoin](http://webchat.freenode.net?channels=freicoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=freicoin).
+* Ask for help on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Technical Support board](https://bitcointalk.org/index.php?board=4.0).
+Building..., :'
+The following are developer notes on how to build Freicoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+- [OSX Build Notes](build-osx.md)
+- [Unix Build Notes](build-unix.md)
+- [Windows Build Notes](build-msw.md)
+Development :'A'Sync :Repositories/dispatch'@WORKFLOWS.md :
+*\**root*README.md :
+'- [Coding Guidelines](coding.md)
+'- [Multiwallet Qt Development](multiwallet-qt.md)
+'- [Release Notes](release-notes.md)
+'- [Release Process](release-process.md)
+'- [Source Code Documentation (External Link)](https://dev.visucore.com/freicoin/doxygen/)
+'- [Translation Process](translation_process.md)
+'- [Unit Tests](unit-tests.md) 
+Resources
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Development & Technical Discussion board](https://bitcointalk.org/index.php?board=6.0).
+* Discuss on [#freicoin-dev](http://webchat.freenode.net/?channels=freicoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=freicoin-dev).
+### Miscellaneous
+- [Assets Attribution](assets-attribution.md)
+- [Files](files.md)
+- [Tor Support](tor.md)
+- [Systemd](systemd.md)
+License
+---------------------
+Distributed under the conjunctive terms of BOTH the [GNU Affero General Purpose License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html) and the [MIT/X11 software license](http://www.opensource.org/licenses/mit-license.php).
+This product includes software developed by the OpenSSL Project for use in the [OpenSSL Toolkit](http://www.openssl.org/). This product includes
+cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cryptsoft.com)), and UPnP software written by Thomas Bernard.
+:Build::
