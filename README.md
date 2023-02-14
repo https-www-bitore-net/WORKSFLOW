@@ -1,6 +1,5 @@
-BEGIN :
-::GLOW7 :','' '"'.Docx'"'' :
-Run'' 'Runs::/Action::/:Build::/scripts::/Run-on :Runs :
+BEGIN :run::/Runs::/'Run ''
+'Runs::/Action::/:Build::/scripts::/Run-on :Runs :
 +Runs :gh/pages :
 +pages :edit "
 +$ intuit install 
