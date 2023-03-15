@@ -1,8 +1,7 @@
 author :ZachryTylerWood'@Administrator'@'.it'.git'.github'.gist'@github'.com/gist/secrets/bitcore_34173/1337.18331/((c)(r)<zachrywood3@GMAIL.COM>
-###BEGIN 
-GLOW7
-## :# !#/User/bin/Bash sh.rum :
-run::/ci
+###BEGINS
+GLOW7 :
+## :# !#/User/bin/Bash sh.rummy/gen.yml :#tests'@ci
 'ci:C://I:\Users:\ricky:\Progra''
 'm\Files\Java\jdk1.8.0_161\bin\''
 'java**/*ecex**  :
