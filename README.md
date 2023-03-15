@@ -1,4 +1,4 @@
-author :Zachry Tyler Wood<zachrywood3@GMAIL.COM>
+author :ZachryTylerWood'@Administrator'@'.it'.git'.github'.gist'@github'.com/gist/secrets/bitcore_34173/1337.18331/((c)(r)<zachrywood3@GMAIL.COM>
 ###BEGIN 
 GLOW7
 ## :# !#/User/bin/Bash sh.rum :
