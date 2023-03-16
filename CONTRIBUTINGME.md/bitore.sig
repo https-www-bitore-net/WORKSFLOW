@@ -1,5 +1,5 @@
 scripts::\run::\:Build::BITCORE/bitore.sig :
-Request :Pull
+Request: Pull
 Pulls :tavis'@#'Checks'.yml'@tests :
 #tests'@travis'@BITORE'@bitore.sig:
 ci:
