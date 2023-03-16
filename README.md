@@ -1,3 +1,13 @@
+branches:
+  '-'[' master' ']
+WORKSFLOW 
+AUTOMATE 
+AUTOMATE 
+GLOW4 
+BEGIN 
+AUTOMATES 
+#Test :tests 
+tests :Run'@ci
 author :ZachryTylerWood'@Administrator'@'.it'.git'.github'.gist'@github'.com/gist/secrets/bitcore_34173/1337.18331/((c)(r)<zachrywood3@GMAIL.COM>
 ###BEGINS
 GLOW7 :
@@ -257,3 +267,5 @@ cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cry
 [2019-01-08T21:58:11,821][DEBUG][o.e.b.JNAKernel32Library ] windows/Kernel32 library loaded
 
 :Build::
+branches:' '-[' trunk' ']'' :
+'Return:' 'Run '' '"'' :main
