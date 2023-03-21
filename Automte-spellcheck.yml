@@ -1,194 +1,6 @@
-usr/bin/env ASH/BICYCLE.YML 
-#:###::BEGIN :
-!#/Users/bin/Bash/: 
-GLOW7:
-From 4a7f303cd01db8fea7d3a236cd20965740d41797 Mon Sep 17 00:00:00 2001
-From: mowjoejoejoejoe <124041561+mowjoejoejoejoe@users.noreply.github.com>
-Date: Tue, 21 Mar 2023 03:50:19 -0500
-Subject: [PATCH] Update devcontainer.json
-
----
- .devcontainer/devcontainer.json | 166 +++++++++++++++++++++++++++++++-
- 1 file changed, 165 insertions(+), 1 deletion(-)
-
-diff --git a/.devcontainer/devcontainer.json b/.devcontainer/devcontainer.json
-index 7fd96b8d9412..cb00761d0d48 100644
---- a/.devcontainer/devcontainer.json
-+++ b/.devcontainer/devcontainer.json
-@@ -1,4 +1,4 @@
--{
-+**{
-   "extensions": [
-     "rust-lang.rust",
-     "bungcip.better-toml",
-@@ -14,3 +14,167 @@
-     "codeQL.runningQueries.memory": 2048
-   }
- }
-+
-+"Support Center
-+
-+Account number: 733254901807
-+
-+Support plan: Basic  Change 
-+
-+View support plans 
-+
-+Your support cases
-+
-+AWS Support App in Slack
-+
-+Compute Optimizer
-+
-+AWS Health Dashboard
-+
-+Trusted Advisor
-+
-+AWS Knowledge resources
-+
-+Knowledge Center
-+
-+Knowledge Center videos
-+
-+AWS Documentation
-+
-+re:Post
-+
-+Training and Certification
-+
-+AWS Support
-+
-+Your support cases
-+
-+Details
-+
-+Case ID 12293795731
-+
-+Reopen case
-+
-+Case details
-+
-+Subject
-+
-+Limit Increase: Consolidated Billing
-+
-+Case ID
-+
-+12293795731
-+
-+Created
-+
-+2023-03-21T06:50:08.646Z
-+
-+Case type
-+
-+Service limits
-+
-+Opened by
-+
-+cr12753750.00bitore341731337@gmail.com 
-+
-+Status
-+
-+Resolved
-+
-+Severity
-+
-+General question
-+
-+Category
-+
-+Service Limit Increase, Consolidated Billing
-+
-+Additional contacts
-+
-+-
-+
-+Correspondence
-+
-+Amazon Web Services
-+
-+Tue Mar 21 2023
-+
-+01:50:47 GMT-0500 (Central Daylight Time)
-+
-+Translate
-+
-+This case has been resolved. Please contact us again if you need further assistance.
-+
-+Amazon Web Services, Inc
-+
-+Tue Mar 21 2023
-+
-+01:50:09 GMT-0500 (Central Daylight Time)
-+
-+Limit increase request 1
-+
-+Service: Consolidated Billing
-+
-+Limit name:Elect 
-+
-+New limit value: 2147483647
-+
-+------------
-+
-+Use case description: (6103128)
-+
-+Feedback
-+
-+Language
-+
-+© 2023, Amazon Web Services, Inc. or its affiliates.
-+
-+Privacy
-+
-+Terms
-+
-+Cookie preferences
-+
-+Amazon Web Services
-+
-+Tue Mar 21 2023
-+
-+01:50:47 GMT-0500 (Central Daylight Time)
-+
-+Translate
-+
-+This case has been resolved. Please contact us again if you need further assistance.
-+
-+Amazon Web Services, Inc
-+
-+Tue Mar 21 2023
-+
-+01:50:09 GMT-0500 (Central Daylight Time)
-+
-+Limit increase request 1
-+
-+Service: Consolidated Billing
-+
-+Limit name: Number of Linkees
-+
-+New limit value: 2147483647
-+
-+------------
-+
-+Use case description: (6103128)
-+
-+Feedback
-+
-+Language
-+
-+© 2023, Amazon Web Services, Inc. or its affiliates.
-+
-+Investment and Insurance Products are:
-+
-+Not Insured by the FDIC or Any Federal Government Agency
-+
-+Not a Deposit or Other Obligation of, or Guaranteed by, the Bank or Any Bank Affiliate
-+
-+Subject to Investment Risks, Including Possible Loss of the Principal Amount Invested
-+
-+Deposit products offered by Wells Fargo Bank, N.A. Member FDIC."**
+BEGIN
+!#/Usr/bin/BAsh ENV
+GLOW4
 ci:C:\I :
 :Build::
 DEPLOYEE :
@@ -199,7 +11,73 @@ Request :Pull :AUTOMATE AUTOMATES BEGIN GLOW4 AUTOMATES#Test :tests :tests :Run'
 ::Pulls :Request.md'@bitore.sig/BOTURE : 
 PUBLISH::
 :Build::
-hql
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@mowjoejoejoejoe 
+github
+/
+docs
+Public
+Fork your own copy of github/docs
+Code
+Issues
+101
+Pull requests
+49
+Discussions
+Actions
+Projects
+4
+Security
+Insights
+Add automated spell check #17674
+jdkato started this conversation in Ideas
+Add automated spell check
+#17674
+@jdkato
+jdkato
+on May 6, 2022 · 3 comments
+Return to top
+Discussion options
+
+jdkato
+on May 6, 2022
+Hi,
+
+I'm the maintainer of Vale, a linter for prose that allows users to implement custom quality-assurance checks (spell check, repeated words, capitalization, etc.) for their documentation.
+
+One of the challenges of implementing Vale (especially with Markdown content) is getting it to correctly handle what I call "non-standard" markup: templating, shortcodes, snippets, and so on. To make this easier, I'm in the process of creating reusable configurations (or, "packages") for common static site generators and template engines, and I chose this repo as a test case for the Liquid package.
+
+Findings
+The following are a few of the errors I found while testing the package. I aired on the side of caution while going through the results; I ignored cases like "collectd" / "Collectd" (casing inconsistencies) and "filesize" / "file size" (spacing inconsistencies), among others.
+
+You can find the full list of cases that I ignored below.
+
+accept.txt (ignored cases)
+(?i)addassigneestoassignable
+(?i)addlabelstolabelable
+(?i)api
+(?i)bluetooth
+(?i)codeql
+(?i)cpp
+(?i)cpu
+(?i)crt
+(?i)css
+(?i)dev
+(?i)docx
+(?i)env
+(?i)facebook
+(?i)gc
+(?i)gifs?
+(?i)github
+(?i)gpg
+(?i)graphql
 (?i)gz
 (?i)html
 (?i)https?
