@@ -1,4 +1,31 @@
-:Build::
+-on :
+#Jobs :use: #
+#-start ::AUTOMATE
+    name: On start    
+    # We will only run this action when:
+    # 1. This repository isn't the template repository
+    # Reference https://docs.github.com/en/actions/learn-github-actions/contexts
+    # Reference https://docs.github.com/en/actions/learn-github-actions/expressions
+    if: ${{ !github.event.repository.is_template }}}
+
+    # We'll run Ubuntu for performance instead of Mac or Windows
+    runs-on: ubuntu-latest
+Last, we are finally in the steps of the Actions workflow. This is the heart of the file, where you can customize your course the most.
+
+    steps:
+      # We'll need to check out the repository so that we can edit the README
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      # Update README and set STEP to '1'
+      - name: Update to step 1
+        uses: skills/action-update-step@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          from_step: 0
+          to_step: 1
+          branch_name: my-first-branch
+::Build::
 :Pull :pulls_request :
 pulls_request :Patch 5'@index.md :
 #README.md/README.md :
